@@ -15,4 +15,6 @@ function b() {
     console.log('b()... this: ', this); // 예상: a.b 객체가 this가 됨
 }
 
+b()
+
 a.b.c()
